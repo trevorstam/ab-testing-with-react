@@ -6,7 +6,7 @@ import './_landingPage.scss';
 
 require('dotenv').config();
 
-const mixpanel = MixPanel.init(`process.env.REACT_APP_MIXPANEL_TOKEN`);
+const mixpanel = MixPanel.init(`${process.env.REACT_APP_MIXPANEL_TOKEN}`);
 
 
 experimentDebugger.enable();
