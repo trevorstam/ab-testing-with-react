@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+
+$fontValue: 'Do Hyeon', sans-serif;
+$controlButtonColor: rgb(220, 78, 35);
+$blueButtonColor: rgb(27, 27, 152);
+$greenButtonColor: seagreen;
+$goldButtonColor: rgb(189, 189, 25);
+$buttonTextColor: whitesmoke;
+
+ .component-wrapper {
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: rgb(15, 220, 80);
+  font-family: $fontValue;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.description {
+  color: white;
+  font-family: $fontValue;
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 15%;
+  font-family: $fontValue;
+  font-size: 1.2em;
+  padding: 20px 10px;
+
+}
+
+button.button-control {
+  background-color: $controlButtonColor;
+  color: $buttonTextColor;
+}
+
+button.button-blue {
+  background-color: $blueButtonColor;
+  color: $buttonTextColor;
+}
+
+button.button-green {
+  background-color: $greenButtonColor;
+  color: $buttonTextColor;
+}
+
+button.button-gold {
+  background-color: $goldButtonColor;
+  color: $buttonTextColor;
+}
